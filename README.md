@@ -1,29 +1,4 @@
-# vue3-comp-lib
+#### vue 对于 tsx 的支持
 
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Run your unit tests
-```
-yarn test:unit
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+https://github.com/vuejs/jsx-next
+需要在 webpack 中配置对于默认后缀文件添加 tsx 文件的解析
